@@ -11,7 +11,7 @@ window.CONFIG = {
   // --- الشكل العام (اختار واحد بس) ---
   //   "sand" = رملي (زي الكارت المطبوع)
   //   "dark" = داكن
-  theme: "sand",
+  theme: "dark",
 
   // --- البيانات الأساسية ---
   name: "أسامة محمدي",
@@ -38,7 +38,7 @@ window.CONFIG = {
   mapUrl: "",
 
   // --- زرار الإيميل ---
-  email: "Mohamady.Lawyer@Gmail.com",
+  email: "https://tinyurl.com/5xz79zh7",
   // عنوان الرسالة ونصها الجاهز (اختياري، سيبهم فاضيين "" لو مش عاوز)
   emailSubject: "",
   emailBody: "",
