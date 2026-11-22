@@ -35,7 +35,7 @@ window.CONFIG = {
   // --- زرار الخريطة (جوجل ماب) ---
   // من Google Maps: اضغط Share ثم Copy link والصق اللينك هنا
   // لو سيبته فاضي "" الزرار مش هيظهر
-  mapUrl: "",
+  mapUrl: "Test.com",
 
   // --- زرار الإيميل ---
   email: "https://tinyurl.com/5xz79zh7",
@@ -45,7 +45,7 @@ window.CONFIG = {
 
   // --- زرار المشاركة (الصغير فوق على الشمال) ---
   // حط هنا لينك البلوج لما يجهز. لو سيبته فاضي "" الزرار مش هيظهر
-  shareUrl: "",
+  shareUrl: "https://omlawyer.blogspot.com/",
 
   // --- أسماء الزراير ---
   labels: {
