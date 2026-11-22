@@ -6,7 +6,7 @@
 <title>كارت شخصي</title>
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="googlebot" content="noindex, nofollow">
-<!-- lawyer-card v1.2 : الشكل هنا، والبيانات كلها في config.js -->
+<!-- lawyer-card v1.3 : الشكل هنا، والبيانات كلها في config.js -->
 <script src="config.js"></script>
 <script>
 (function () {
@@ -113,6 +113,23 @@ h1{margin:8px 0 0;font-size:30px;font-weight:700;color:var(--gold)}
 <script>
 (function () {
   var C = window.CONFIG || {};
+
+  // أي قيمة في config.js تبدأ بـ b64: بتتفك هنا وقت التشغيل (لإخفاء الإيميل والأرقام من النص الصريح)
+  function dec(v) {
+    if (typeof v !== "string" || v.indexOf("b64:") !== 0) return v;
+    try {
+      var bin = atob(v.slice(4).replace(/\s+/g, ""));
+      var bytes = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      return new TextDecoder("utf-8").decode(bytes);
+    } catch (e) { return ""; }
+  }
+  (function walk(o) {
+    for (var k in o) {
+      if (o[k] && typeof o[k] === "object") walk(o[k]); else o[k] = dec(o[k]);
+    }
+  })(C);
+
   var L = C.labels || {};
   function $(id) { return document.getElementById(id); }
   function hide(id) { $(id).style.display = "none"; }
