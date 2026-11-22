@@ -35,7 +35,7 @@ window.CONFIG = {
   // --- زرار الخريطة (جوجل ماب) ---
   // من Google Maps: اضغط Share ثم Copy link والصق اللينك هنا
   // لو سيبته فاضي "" الزرار مش هيظهر
-  mapUrl: "Test.com",
+  mapUrl: "https://shorturl.at/IEp1D",
 
   // --- زرار الإيميل ---
   email: "https://tinyurl.com/5xz79zh7",
