@@ -22,11 +22,11 @@ window.CONFIG = {
 
   // --- زرار الاتصال ---
   // الرقم بالصيغة الدولية (لازم + في الأول)
-  phone: "+201006569629",
+  phone: "b64:KzIwMTAwNjU2OTYyOQ==",
 
   // --- زرار واتساب ---
   // الرقم بالصيغة الدولية من غير + ومن غير صفر في الأول
-  whatsapp: "201006569629",
+  whatsapp: "b64:MjAxMDA2NTY5NjI5",
   // true = أول الرسالة تحية تلقائية (صباح الخير / مساء الخير) حسب ساعة الموبايل
   whatsappAutoGreeting: true,
   // نص إضافي بعد التحية (سيبه فاضي "" لو مش عاوز)
@@ -35,10 +35,10 @@ window.CONFIG = {
   // --- زرار الخريطة (جوجل ماب) ---
   // من Google Maps: اضغط Share ثم Copy link والصق اللينك هنا
   // لو سيبته فاضي "" الزرار مش هيظهر
-  mapUrl: "https://shorturl.at/IEp1D",
+  mapUrl: "b64:aHR0cHM6Ly9tYXBzLmFwcC5nb28uZ2wvTEJCTjhDUVZadEhNYzY3bzY=",
 
   // --- زرار الإيميل ---
-  email: "https://tinyurl.com/5xz79zh7",
+  email: "b64:TW9oYW1hZHkuTGF3eWVyQEdtYWlsLmNvbQ==",
   // عنوان الرسالة ونصها الجاهز (اختياري، سيبهم فاضيين "" لو مش عاوز)
   emailSubject: "",
   emailBody: "",
