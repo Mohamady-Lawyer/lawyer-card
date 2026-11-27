@@ -35,10 +35,10 @@ window.CONFIG = {
   // --- زرار الخريطة (جوجل ماب) ---
   // من Google Maps: اضغط Share ثم Copy link والصق اللينك هنا
   // لو سيبته فاضي "" الزرار مش هيظهر
-  mapUrl: "b64:aHR0cHM6Ly9tYXBzLmFwcC5nb28uZ2wvTEJCTjhDUVZadEhNYzY3bzY=",
+  mapUrl: "",
 
   // --- زرار الإيميل ---
-  email: "b64:TW9oYW1hZHkuTGF3eWVyQEdtYWlsLmNvbQ==",
+  email: "",
   // عنوان الرسالة ونصها الجاهز (اختياري، سيبهم فاضيين "" لو مش عاوز)
   emailSubject: "",
   emailBody: "",
